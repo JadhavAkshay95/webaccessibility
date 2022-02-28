@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.planet-card {
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #b7bbbd;
+  border-radius: 10px;
+  color: black;
+}
+
+.login-container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+
+}
+
+.details {
+  font-size: 20px;
+
+}
+
+.card-details {
+  margin: 10px;
+
+}
+
+.control {
+  border-radius: 5px;
+  padding: 8px 12px;
+}
+
+.login-button {
+  padding: 10px 30px;
+  background: #98e498;
+  border: none;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ea3f3f;
+  margin: 10px;
+
+}
+
+.search-input {
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 50%;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image-list{
+  margin: 10px;
+}
+
+.operable-container{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto 100px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line-item-container{
+    padding: 10px;
+}
+
+.is-active{
+  background-color: #10982d;
+
+}
+
+.lne-item{
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.spell-out {
+  speak:spell-out;
+}
+
+.abbr-container{
+  margin: auto 100px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color: #4add4a;
+}
